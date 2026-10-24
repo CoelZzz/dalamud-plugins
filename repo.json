@@ -3,7 +3,7 @@
         "Author":  "CoelZzz",
         "Name":  "Raid Helper",
         "InternalName":  "RaidHelper",
-        "AssemblyVersion":  "0.1.3.0",
+        "AssemblyVersion":  "0.1.4.0",
         "Description":  "Shows a compact helper window with live mechanic calls for supported fights.\n\nDancing Mad (Ultimate): P1 rings, gazes, rocks and cleaves; P2 Forsaken and Trine; P3 Black Hole and hand attacks; P4 debuffs; P5 Chaotic Flood.\n\nThe Epic of Alexander (Ultimate): P2 nisi lineup; P3 Wormhole; P4 Fate Calibration Alpha and Beta.",
         "ApplicableVersion":  "any",
         "RepoUrl":  "https://github.com/CoelZzz/dalamud-plugins",
@@ -26,8 +26,8 @@
         "DownloadLinkInstall":  "https://raw.githubusercontent.com/CoelZzz/dalamud-plugins/main/plugins/RaidHelper/latest.zip",
         "DownloadLinkTesting":  "https://raw.githubusercontent.com/CoelZzz/dalamud-plugins/main/plugins/RaidHelper/latest.zip",
         "DownloadLinkUpdate":  "https://raw.githubusercontent.com/CoelZzz/dalamud-plugins/main/plugins/RaidHelper/latest.zip",
-        "LastUpdate":  1792809988,
+        "LastUpdate":  1792863708,
         "IsTestingExclusive":  false,
-        "Changelog":  "TEA: client raise countdowns for Temporal Stasis and Inception; the Inception Shared Sentence stack call (who stacks with the MT); a role helper for PLD, MCH and casters (P1-P3 cooldown plan, P1 directions from the middle tornado, P2 movement with nisi passes, Water/Lightning, Enumeration and the ice drop). The preview tabs now scroll sideways when they don\u0027t fit."
+        "Changelog":  "TEA: role helper adds WAR, WHM and SGE (cooldown plans, P1 tornado directions, P2 positions, nisi partners, Link-Up, Enumeration, WAR ice drop). The role helper is now off by default - pick your role (or Auto) in the TEA settings."
     }
 ]
