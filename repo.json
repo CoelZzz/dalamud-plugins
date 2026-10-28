@@ -34,7 +34,7 @@
         "Author":  "CoelZzz",
         "Name":  "Alt Relay",
         "InternalName":  "AltRelay",
-        "AssemblyVersion":  "0.1.2.0",
+        "AssemblyVersion":  "0.1.3.0",
         "Description":  "Keeps a list of your characters and works through them one at a time, logging in to each with Lifestream.\n\nCap tomes: checks this week\u0027s limited tomestones and runs the dungeon paying the most of them that the character can enter, with AutoDuty in Duty Support or Trust, until the weekly cap is reached.\n\nRun main story: runs Questionable on each character until it stops, usually at a duty it can\u0027t do, and names that duty.\n\nRun allied dailies: runs today\u0027s daily quests of the combat allied societies with Questionable, until the allowances run out.\n\nRun event quests: runs the current seasonal event\u0027s quests with Questionable.\n\nRefresh all: logs in to every character just to read its tomestones, main story progress, allowances and event quests.\n\nEach character can be switched to a chosen job, in its best gear set. When every character is done it can log out, close the game or run your own commands.\n\nNeeds Lifestream, plus AutoDuty for tomes or Questionable for the quest tasks. AutoRetainer is optional.",
         "ApplicableVersion":  "any",
         "RepoUrl":  "https://github.com/CoelZzz/dalamud-plugins",
@@ -58,8 +58,8 @@
         "DownloadLinkInstall":  "https://raw.githubusercontent.com/CoelZzz/dalamud-plugins/main/plugins/AltRelay/latest.zip",
         "DownloadLinkTesting":  "https://raw.githubusercontent.com/CoelZzz/dalamud-plugins/main/plugins/AltRelay/latest.zip",
         "DownloadLinkUpdate":  "https://raw.githubusercontent.com/CoelZzz/dalamud-plugins/main/plugins/AltRelay/latest.zip",
-        "LastUpdate":  1793200940,
+        "LastUpdate":  1793202632,
         "IsTestingExclusive":  false,
-        "Changelog":  "Run event quests now finds the running seasonal events from the game itself. Questionable\u0027s event list left out All Saints\u0027 Wake 2026 (an event without a start date), so every character reported no event quests."
+        "Changelog":  "Run event quests now reads Questionable\u0027s own event table, the one its window shows, so it finds All Saints\u0027 Wake 2026 from anywhere, inn rooms included. The 0.1.2.0 festival reading only worked in cities and the open world, and stays as a fallback. New Dependencies tab in the settings: each task\u0027s plugins, with a green check when loaded and a red cross when missing."
     }
 ]
