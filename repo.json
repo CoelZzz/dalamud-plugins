@@ -34,7 +34,7 @@
         "Author":  "CoelZzz",
         "Name":  "Alt Relay",
         "InternalName":  "AltRelay",
-        "AssemblyVersion":  "0.1.1.0",
+        "AssemblyVersion":  "0.1.2.0",
         "Description":  "Keeps a list of your characters and works through them one at a time, logging in to each with Lifestream.\n\nCap tomes: checks this week\u0027s limited tomestones and runs the dungeon paying the most of them that the character can enter, with AutoDuty in Duty Support or Trust, until the weekly cap is reached.\n\nRun main story: runs Questionable on each character until it stops, usually at a duty it can\u0027t do, and names that duty.\n\nRun allied dailies: runs today\u0027s daily quests of the combat allied societies with Questionable, until the allowances run out.\n\nRun event quests: runs the current seasonal event\u0027s quests with Questionable.\n\nRefresh all: logs in to every character just to read its tomestones, main story progress, allowances and event quests.\n\nEach character can be switched to a chosen job, in its best gear set. When every character is done it can log out, close the game or run your own commands.\n\nNeeds Lifestream, plus AutoDuty for tomes or Questionable for the quest tasks. AutoRetainer is optional.",
         "ApplicableVersion":  "any",
         "RepoUrl":  "https://github.com/CoelZzz/dalamud-plugins",
@@ -58,8 +58,8 @@
         "DownloadLinkInstall":  "https://raw.githubusercontent.com/CoelZzz/dalamud-plugins/main/plugins/AltRelay/latest.zip",
         "DownloadLinkTesting":  "https://raw.githubusercontent.com/CoelZzz/dalamud-plugins/main/plugins/AltRelay/latest.zip",
         "DownloadLinkUpdate":  "https://raw.githubusercontent.com/CoelZzz/dalamud-plugins/main/plugins/AltRelay/latest.zip",
-        "LastUpdate":  1793198508,
+        "LastUpdate":  1793200940,
         "IsTestingExclusive":  false,
-        "Changelog":  "New tasks: Run allied dailies (combat allied societies) and Run event quests, both with Questionable, plus Refresh all to read every character. Main story: the no-progress timer no longer counts time in a duty, so it can\u0027t stop AutoDuty mid-dungeon, and results name the duty Questionable stopped at. AutoRetainer multi mode now stays off when a problem stops everything (a new setting turns it back on). Every character visited now has all its readings taken, and long results show in full on hover."
+        "Changelog":  "Run event quests now finds the running seasonal events from the game itself. Questionable\u0027s event list left out All Saints\u0027 Wake 2026 (an event without a start date), so every character reported no event quests."
     }
 ]
