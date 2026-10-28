@@ -34,13 +34,15 @@
         "Author":  "CoelZzz",
         "Name":  "Alt Relay",
         "InternalName":  "AltRelay",
-        "AssemblyVersion":  "0.1.0.0",
-        "Description":  "Keeps a list of your characters and works through them one at a time, logging in to each with Lifestream.\n\nCap tomes: checks this week\u0027s limited tomestones and runs the dungeon paying the most of them that the character can enter, with AutoDuty in Duty Support or Trust, until the weekly cap is reached.\n\nRun main story: runs Questionable on each character until it stops, usually at a duty it can\u0027t do.\n\nEach character can be switched to a chosen job, in its best gear set. When every character is done it can log out, close the game or run your own commands.\n\nNeeds Lifestream, plus AutoDuty for tomes or Questionable for the main story. AutoRetainer is optional.",
+        "AssemblyVersion":  "0.1.1.0",
+        "Description":  "Keeps a list of your characters and works through them one at a time, logging in to each with Lifestream.\n\nCap tomes: checks this week\u0027s limited tomestones and runs the dungeon paying the most of them that the character can enter, with AutoDuty in Duty Support or Trust, until the weekly cap is reached.\n\nRun main story: runs Questionable on each character until it stops, usually at a duty it can\u0027t do, and names that duty.\n\nRun allied dailies: runs today\u0027s daily quests of the combat allied societies with Questionable, until the allowances run out.\n\nRun event quests: runs the current seasonal event\u0027s quests with Questionable.\n\nRefresh all: logs in to every character just to read its tomestones, main story progress, allowances and event quests.\n\nEach character can be switched to a chosen job, in its best gear set. When every character is done it can log out, close the game or run your own commands.\n\nNeeds Lifestream, plus AutoDuty for tomes or Questionable for the quest tasks. AutoRetainer is optional.",
         "ApplicableVersion":  "any",
         "RepoUrl":  "https://github.com/CoelZzz/dalamud-plugins",
         "Tags":  [
                      "tomestones",
                      "msq",
+                     "allied societies",
+                     "events",
                      "autoduty",
                      "questionable",
                      "alts",
@@ -51,13 +53,13 @@
         "LoadSync":  false,
         "CanUnloadAsync":  false,
         "LoadPriority":  0,
-        "Punchline":  "Cap weekly tomestones with AutoDuty, or play the main story with Questionable, on every character.",
-        "Changelog":  "First test build. Cap tomes runs AutoDuty dungeons until each character has this week\u0027s limited tomestones. Run main story runs Questionable on each character until it stops. Characters are switched with Lifestream, and each can be put on a chosen job in its best gear set.",
+        "Punchline":  "Cap tomestones, play the main story, allied society dailies or seasonal events on every character.",
         "AcceptsFeedback":  true,
         "DownloadLinkInstall":  "https://raw.githubusercontent.com/CoelZzz/dalamud-plugins/main/plugins/AltRelay/latest.zip",
         "DownloadLinkTesting":  "https://raw.githubusercontent.com/CoelZzz/dalamud-plugins/main/plugins/AltRelay/latest.zip",
         "DownloadLinkUpdate":  "https://raw.githubusercontent.com/CoelZzz/dalamud-plugins/main/plugins/AltRelay/latest.zip",
-        "LastUpdate":  1793158886,
-        "IsTestingExclusive":  false
+        "LastUpdate":  1793198508,
+        "IsTestingExclusive":  false,
+        "Changelog":  "New tasks: Run allied dailies (combat allied societies) and Run event quests, both with Questionable, plus Refresh all to read every character. Main story: the no-progress timer no longer counts time in a duty, so it can\u0027t stop AutoDuty mid-dungeon, and results name the duty Questionable stopped at. AutoRetainer multi mode now stays off when a problem stops everything (a new setting turns it back on). Every character visited now has all its readings taken, and long results show in full on hover."
     }
 ]
