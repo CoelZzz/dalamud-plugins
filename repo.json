@@ -29,5 +29,35 @@
         "LastUpdate":  1792863708,
         "IsTestingExclusive":  false,
         "Changelog":  "TEA: role helper adds WAR, WHM and SGE (cooldown plans, P1 tornado directions, P2 positions, nisi partners, Link-Up, Enumeration, WAR ice drop). The role helper is now off by default - pick your role (or Auto) in the TEA settings."
+    },
+    {
+        "Author":  "CoelZzz",
+        "Name":  "Alt Relay",
+        "InternalName":  "AltRelay",
+        "AssemblyVersion":  "0.1.0.0",
+        "Description":  "Keeps a list of your characters and works through them one at a time, logging in to each with Lifestream.\n\nCap tomes: checks this week\u0027s limited tomestones and runs the dungeon paying the most of them that the character can enter, with AutoDuty in Duty Support or Trust, until the weekly cap is reached.\n\nRun main story: runs Questionable on each character until it stops, usually at a duty it can\u0027t do.\n\nEach character can be switched to a chosen job, in its best gear set. When every character is done it can log out, close the game or run your own commands.\n\nNeeds Lifestream, plus AutoDuty for tomes or Questionable for the main story. AutoRetainer is optional.",
+        "ApplicableVersion":  "any",
+        "RepoUrl":  "https://github.com/CoelZzz/dalamud-plugins",
+        "Tags":  [
+                     "tomestones",
+                     "msq",
+                     "autoduty",
+                     "questionable",
+                     "alts",
+                     "automation"
+                 ],
+        "DalamudApiLevel":  15,
+        "LoadRequiredState":  0,
+        "LoadSync":  false,
+        "CanUnloadAsync":  false,
+        "LoadPriority":  0,
+        "Punchline":  "Cap weekly tomestones with AutoDuty, or play the main story with Questionable, on every character.",
+        "Changelog":  "First test build. Cap tomes runs AutoDuty dungeons until each character has this week\u0027s limited tomestones. Run main story runs Questionable on each character until it stops. Characters are switched with Lifestream, and each can be put on a chosen job in its best gear set.",
+        "AcceptsFeedback":  true,
+        "DownloadLinkInstall":  "https://raw.githubusercontent.com/CoelZzz/dalamud-plugins/main/plugins/AltRelay/latest.zip",
+        "DownloadLinkTesting":  "https://raw.githubusercontent.com/CoelZzz/dalamud-plugins/main/plugins/AltRelay/latest.zip",
+        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/CoelZzz/dalamud-plugins/main/plugins/AltRelay/latest.zip",
+        "LastUpdate":  1793158886,
+        "IsTestingExclusive":  false
     }
 ]

@@ -18,5 +18,6 @@ A custom Dalamud plugin repository.
 | Plugin | What it does |
 |---|---|
 | Raid Helper | Live mechanic calls for high-end fights. Currently covers Dancing Mad (Ultimate) and The Epic of Alexander (Ultimate). Open its settings with `/raid`. |
+| Alt Relay | Works through your characters one at a time, switching with Lifestream. It can cap the weekly tomestones with AutoDuty, or run the main story with Questionable until it stops. Open it with `/altrelay`. An early test build. |
 
 Updates arrive through Dalamud like any other plugin.
